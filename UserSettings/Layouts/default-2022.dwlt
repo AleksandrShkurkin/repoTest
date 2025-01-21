@@ -14,17 +14,149 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 961
-    y: 51
-    width: 958
-    height: 980
+    x: 0
+    y: 43.2
+    width: 1536
+    height: 772.8
   m_ShowMode: 4
-  m_Title: Hierarchy
-  m_RootView: {fileID: 2}
+  m_Title: Game
+  m_RootView: {fileID: 7}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
-  m_Maximized: 0
+  m_Maximized: 1
 --- !u!114 &2
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 3}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 30
+    width: 1536
+    height: 722.8
+  m_MinSize: {x: 300, y: 100}
+  m_MaxSize: {x: 24288, y: 16192}
+  vertical: 1
+  controlID: 37
+  draggingID: 0
+--- !u!114 &3
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 10}
+  - {fileID: 4}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1536
+    height: 722.8
+  m_MinSize: {x: 300, y: 100}
+  m_MaxSize: {x: 24288, y: 16192}
+  vertical: 0
+  controlID: 38
+  draggingID: 0
+--- !u!114 &4
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: InspectorWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 1094.4
+    y: 0
+    width: 441.59998
+    height: 722.8
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 16}
+  m_Panes:
+  - {fileID: 16}
+  - {fileID: 13}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &5
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 371.2
+    height: 426.4
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 17}
+  m_Panes:
+  - {fileID: 17}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &6
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: ProjectBrowser
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 426.4
+    width: 1094.4
+    height: 296.4
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 15}
+  m_Panes:
+  - {fileID: 15}
+  - {fileID: 20}
+  - {fileID: 14}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -37,22 +169,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 3}
-  - {fileID: 5}
-  - {fileID: 4}
+  - {fileID: 8}
+  - {fileID: 2}
+  - {fileID: 9}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 958
-    height: 980
+    width: 1536
+    height: 772.8
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
   m_UseBottomView: 1
   m_BottomViewHeight: 20
---- !u!114 &3
+--- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -69,12 +201,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 958
+    width: 1536
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   m_LastLoadedLayoutName: 
---- !u!114 &4
+--- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -90,12 +222,12 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 960
-    width: 958
+    y: 752.8
+    width: 1536
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
---- !u!114 &5
+--- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -108,44 +240,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 6}
   - {fileID: 11}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 30
-    width: 958
-    height: 930
-  m_MinSize: {x: 300, y: 100}
-  m_MaxSize: {x: 24288, y: 16192}
-  vertical: 0
-  controlID: 43
---- !u!114 &6
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 7}
-  - {fileID: 10}
+  - {fileID: 6}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 493
-    height: 930
+    width: 1094.4
+    height: 722.8
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 44
---- !u!114 &7
+  controlID: 39
+  draggingID: 0
+--- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -158,45 +266,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 8}
-  - {fileID: 9}
+  - {fileID: 5}
+  - {fileID: 12}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 493
-    height: 667
+    width: 1094.4
+    height: 426.4
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 45
---- !u!114 &8
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 114
-    height: 667
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 14}
-  m_Panes:
-  - {fileID: 14}
-  m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &9
+  controlID: 40
+  draggingID: 0
+--- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -211,76 +294,19 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 114
+    x: 371.2
     y: 0
-    width: 379
-    height: 667
+    width: 723.2
+    height: 426.4
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 15}
+  m_ActualView: {fileID: 18}
   m_Panes:
-  - {fileID: 15}
-  - {fileID: 13}
-  - {fileID: 16}
-  m_Selected: 0
-  m_LastSelected: 2
---- !u!114 &10
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 667
-    width: 493
-    height: 263
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 17}
-  m_Panes:
-  - {fileID: 17}
   - {fileID: 18}
   - {fileID: 19}
-  - {fileID: 20}
   m_Selected: 0
-  m_LastSelected: 3
---- !u!114 &11
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Window
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 493
-    y: 0
-    width: 465
-    height: 930
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 12}
-  m_Panes:
-  - {fileID: 21}
-  - {fileID: 12}
-  m_Selected: 1
-  m_LastSelected: 0
---- !u!114 &12
+  m_LastSelected: 1
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -300,10 +326,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1454
-    y: 81
-    width: 464
-    height: 909
+    x: 1094.4
+    y: 73.6
+    width: 440.59998
+    height: 701.8
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -321,14 +347,14 @@ MonoBehaviour:
   currentTrackingStatusHasUpdate: 0
   currentStatusEntriesHasUpdate: 0
   repositoryProgressHasUpdate: 0
-  appManagerProgressHasUpdate: 0
-  changeTab: 5
-  activeTab: 5
+  appManagerProgressHasUpdate: 1
+  changeTab: 4
+  activeTab: 4
   initProjectView:
     hasCompletedInitialCheck: 1
     isUserDataPresent: 1
     lastCheckUserChangedEvent:
-      updatedTimeString: 2025-01-19T17:05:44.400+01:00
+      updatedTimeString: 2025-01-19T18:43:25.437+02:00
       cacheType: 8
   branchesView:
     treeLocals:
@@ -373,13 +399,12 @@ MonoBehaviour:
         isContainer: 0
         isCollapsed: 0
         isHidden: 0
-        isActive: 1
+        isActive: 0
         treeIsCheckable: 0
         checkState: 0
-      selectedNode:
-        path: 
-        label: 
-        level: 0
+      - path: Artms
+        label: Artms
+        level: 1
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
@@ -387,15 +412,57 @@ MonoBehaviour:
         isActive: 0
         treeIsCheckable: 0
         checkState: 0
+      - path: Nasya
+        label: Nasya
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 1
+        treeIsCheckable: 0
+        checkState: 0
+      - path: testBranch
+        label: testBranch
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      selectedNode:
+        path: Nasya
+        label: Nasya
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 1
+        treeIsCheckable: 0
+        checkState: 0
     treeRemotes:
       IsRemote: 1
       folders:
         keys:
         - Remote branches
+        - origin
         values:
         - path: Remote branches
           label: Remote branches
           level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+        - path: origin
+          label: origin
+          level: 1
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -422,6 +489,56 @@ MonoBehaviour:
         isActive: 0
         treeIsCheckable: 0
         checkState: 0
+      - path: origin
+        label: origin
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      - path: origin/Artms
+        label: Artms
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      - path: origin/master
+        label: master
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      - path: origin/Nasya
+        label: Nasya
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      - path: origin/testBranch
+        label: testBranch
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
       selectedNode:
         path: 
         label: 
@@ -437,19 +554,19 @@ MonoBehaviour:
     newBranchName: 
     scroll: {x: 0, y: 0}
     disableDelete: 1
-    disableCreate: 1
+    disableCreate: 0
     lastLocalAndRemoteBranchListChangedEvent:
-      updatedTimeString: 2025-01-19T17:07:05.296+01:00
+      updatedTimeString: 2025-01-21T14:34:58.937+02:00
       cacheType: 2
     lastCurrentBranchAndRemoteChange:
-      updatedTimeString: 2025-01-19T17:07:01.524+01:00
+      updatedTimeString: 2025-01-21T14:35:26.200+02:00
       cacheType: 1
     currentBranch:
-      name: master
-      tracking: 
+      name: Nasya
+      tracking: origin/Nasya
     currentRemote:
-      name: 
-      url: 
+      name: origin
+      url: https://github.com/AleksandrShkurkin/repoTest.git
       login: 
       user: 
       host: 
@@ -458,22 +575,74 @@ MonoBehaviour:
     localBranches:
     - name: master
       tracking: 
-    remoteBranches: []
+    - name: Artms
+      tracking: origin/Artms
+    - name: Nasya
+      tracking: origin/Nasya
+    - name: testBranch
+      tracking: origin/testBranch
+    remoteBranches:
+    - name: origin/Artms
+      tracking: '[None]'
+    - name: origin/master
+      tracking: '[None]'
+    - name: origin/Nasya
+      tracking: '[None]'
+    - name: origin/testBranch
+      tracking: '[None]'
   changesView:
     currentBranchHasUpdate: 0
     currentStatusEntriesHasUpdate: 0
     currentLocksHasUpdate: 0
     commitBody: 
     commitMessage: 
-    currentBranch: master
+    currentBranch: Nasya
     treeScroll: {x: 0, y: 0}
     treeChanges:
       assets:
         keys: []
         values: []
       folders:
-        keys: []
-        values: []
+        keys:
+        - Packages
+        - ProjectSettings
+        values:
+        - path: Packages
+          label: Packages
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: ProjectSettings
+          label: ProjectSettings
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
       checkedFileNodes:
         keys: []
         values: []
@@ -502,6 +671,78 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
+      - path: Packages
+        label: Packages
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Packages\packages-lock.json
+        label: packages-lock.json
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Packages\packages-lock.json
+          fullPath: C:\Users\Nastichka\haibogmilue\Packages\packages-lock.json
+          projectPath: Packages\packages-lock.json
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: ProjectSettings
+        label: ProjectSettings
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: ProjectSettings\PackageManagerSettings.asset
+        label: PackageManagerSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\PackageManagerSettings.asset
+          fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\PackageManagerSettings.asset
+          projectPath: ProjectSettings\PackageManagerSettings.asset
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
       selectedNode:
         path: 
         label: 
@@ -521,21 +762,87 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-    gitStatusEntries: []
-    changedFilesText: No changed files
+    gitStatusEntries:
+    - path: Packages\packages-lock.json
+      fullPath: C:\Users\Nastichka\haibogmilue\Packages\packages-lock.json
+      projectPath: Packages\packages-lock.json
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: ProjectSettings\PackageManagerSettings.asset
+      fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\PackageManagerSettings.asset
+      projectPath: ProjectSettings\PackageManagerSettings.asset
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    changedFilesText: 2 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2025-01-19T17:08:45.454+01:00
+      updatedTimeString: 2025-01-21T14:35:04.028+02:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2025-01-19T17:09:45.287+01:00
+      updatedTimeString: 2025-01-21T14:35:03.995+02:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2025-01-19T17:10:07.391+01:00
+      updatedTimeString: 2025-01-21T14:35:04.134+02:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
     currentTrackingStatusHasUpdate: 0
     logEntries:
+    - commitID: be6e2270a7cb63aa17961a54aaebd7bb671431a5
+      mergeA: 
+      mergeB: 
+      authorName: Asya05Tree
+      authorEmail: nastenka05m@gmail.com
+      commitEmail: nastenka05m@gmail.com
+      commitName: Asya05Tree
+      summary: test
+      description: 
+      timeString: 2025-01-21T14:34:45.000+02:00
+      commitTimeString: 2025-01-21T14:34:45.000+02:00
+      changes:
+      - path: Assets\Scenes\SampleScene.unity
+        fullPath: C:\Users\Nastichka\haibogmilue\Assets\Scenes\SampleScene.unity
+        projectPath: Assets\Scenes\SampleScene.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: 6b09f701de337fce078bedd393ebe28f35f9cfb4
+      mergeA: 
+      mergeB: 
+      authorName: Oleksandr Shkurkin
+      authorEmail: saha.sanek.555@gmail.com
+      commitEmail: saha.sanek.555@gmail.com
+      commitName: Oleksandr Shkurkin
+      summary: committest
+      description: 
+      timeString: 2025-01-19T20:25:53.000+01:00
+      commitTimeString: 2025-01-19T20:25:53.000+01:00
+      changes:
+      - path: Assets\Scenes\SampleScene.unity
+        fullPath: C:\Users\Nastichka\haibogmilue\Assets\Scenes\SampleScene.unity
+        projectPath: Assets\Scenes\SampleScene.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: a1e865869cb759523ea4526397e8fc16f32637ec
+      mergeA: 
+      mergeB: 
+      authorName: Oleksandr Shkurkin
+      authorEmail: saha.sanek.555@gmail.com
+      commitEmail: saha.sanek.555@gmail.com
+      commitName: Oleksandr Shkurkin
+      summary: commit
+      description: 
+      timeString: 2025-01-19T20:23:07.000+01:00
+      commitTimeString: 2025-01-19T20:23:07.000+01:00
+      changes:
+      - path: UserSettings\Layouts\default-2022.dwlt
+        fullPath: C:\Users\Nastichka\haibogmilue\UserSettings\Layouts\default-2022.dwlt
+        projectPath: UserSettings\Layouts\default-2022.dwlt
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
     - commitID: d4c1c6224ba86bd01e7ce068b65c7dad7909db02
       mergeA: 
       mergeB: 
@@ -549,323 +856,277 @@ MonoBehaviour:
       commitTimeString: 2025-01-19T17:09:44.000+01:00
       changes:
       - path: .collabignore
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\.collabignore"
+        fullPath: C:\Users\Nastichka\haibogmilue\.collabignore
         projectPath: .collabignore
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: .plastic\cachedtrees\56e62dd7-241f-41e9-8c6b-dd4ca4513e62.7
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\.plastic\\cachedtrees\\56e62dd7-241f-41e9-8c6b-dd4ca4513e62.7"
+        fullPath: C:\Users\Nastichka\haibogmilue\.plastic\cachedtrees\56e62dd7-241f-41e9-8c6b-dd4ca4513e62.7
         projectPath: .plastic\cachedtrees\56e62dd7-241f-41e9-8c6b-dd4ca4513e62.7
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: .plastic\plastic.fullupdate
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\.plastic\\plastic.fullupdate"
+        fullPath: C:\Users\Nastichka\haibogmilue\.plastic\plastic.fullupdate
         projectPath: .plastic\plastic.fullupdate
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: .plastic\plastic.fullycheckeddirectories
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\.plastic\\plastic.fullycheckeddirectories"
+        fullPath: C:\Users\Nastichka\haibogmilue\.plastic\plastic.fullycheckeddirectories
         projectPath: .plastic\plastic.fullycheckeddirectories
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: .plastic\plastic.selector
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\.plastic\\plastic.selector"
+        fullPath: C:\Users\Nastichka\haibogmilue\.plastic\plastic.selector
         projectPath: .plastic\plastic.selector
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: .plastic\plastic.wktree
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\.plastic\\plastic.wktree"
+        fullPath: C:\Users\Nastichka\haibogmilue\.plastic\plastic.wktree
         projectPath: .plastic\plastic.wktree
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: .plastic\plastic.workspace
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\.plastic\\plastic.workspace"
+        fullPath: C:\Users\Nastichka\haibogmilue\.plastic\plastic.workspace
         projectPath: .plastic\plastic.workspace
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: .plastic\preview\version
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\.plastic\\preview\\version"
+        fullPath: C:\Users\Nastichka\haibogmilue\.plastic\preview\version
         projectPath: .plastic\preview\version
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: .vsconfig
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\.vsconfig"
+        fullPath: C:\Users\Nastichka\haibogmilue\.vsconfig
         projectPath: .vsconfig
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Scenes.meta
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\Assets\\Scenes.meta"
+        fullPath: C:\Users\Nastichka\haibogmilue\Assets\Scenes.meta
         projectPath: Assets\Scenes.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Scenes\SampleScene.unity
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\Assets\\Scenes\\SampleScene.unity"
+        fullPath: C:\Users\Nastichka\haibogmilue\Assets\Scenes\SampleScene.unity
         projectPath: Assets\Scenes\SampleScene.unity
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Scenes\SampleScene.unity.meta
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\Assets\\Scenes\\SampleScene.unity.meta"
+        fullPath: C:\Users\Nastichka\haibogmilue\Assets\Scenes\SampleScene.unity.meta
         projectPath: Assets\Scenes\SampleScene.unity.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Scripts.meta
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\Assets\\Scripts.meta"
+        fullPath: C:\Users\Nastichka\haibogmilue\Assets\Scripts.meta
         projectPath: Assets\Scripts.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Scripts\PlayerMovement.cs
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\Assets\\Scripts\\PlayerMovement.cs"
+        fullPath: C:\Users\Nastichka\haibogmilue\Assets\Scripts\PlayerMovement.cs
         projectPath: Assets\Scripts\PlayerMovement.cs
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Scripts\PlayerMovement.cs.meta
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\Assets\\Scripts\\PlayerMovement.cs.meta"
+        fullPath: C:\Users\Nastichka\haibogmilue\Assets\Scripts\PlayerMovement.cs.meta
         projectPath: Assets\Scripts\PlayerMovement.cs.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Packages\manifest.json
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\Packages\\manifest.json"
+        fullPath: C:\Users\Nastichka\haibogmilue\Packages\manifest.json
         projectPath: Packages\manifest.json
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Packages\packages-lock.json
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\Packages\\packages-lock.json"
+        fullPath: C:\Users\Nastichka\haibogmilue\Packages\packages-lock.json
         projectPath: Packages\packages-lock.json
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\AudioManager.asset
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\ProjectSettings\\AudioManager.asset"
+        fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\AudioManager.asset
         projectPath: ProjectSettings\AudioManager.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\ClusterInputManager.asset
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\ProjectSettings\\ClusterInputManager.asset"
+        fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\ClusterInputManager.asset
         projectPath: ProjectSettings\ClusterInputManager.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\DynamicsManager.asset
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\ProjectSettings\\DynamicsManager.asset"
+        fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\DynamicsManager.asset
         projectPath: ProjectSettings\DynamicsManager.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\EditorBuildSettings.asset
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\ProjectSettings\\EditorBuildSettings.asset"
+        fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\EditorBuildSettings.asset
         projectPath: ProjectSettings\EditorBuildSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\EditorSettings.asset
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\ProjectSettings\\EditorSettings.asset"
+        fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\EditorSettings.asset
         projectPath: ProjectSettings\EditorSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\GraphicsSettings.asset
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\ProjectSettings\\GraphicsSettings.asset"
+        fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\GraphicsSettings.asset
         projectPath: ProjectSettings\GraphicsSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\InputManager.asset
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\ProjectSettings\\InputManager.asset"
+        fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\InputManager.asset
         projectPath: ProjectSettings\InputManager.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\MemorySettings.asset
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\ProjectSettings\\MemorySettings.asset"
+        fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\MemorySettings.asset
         projectPath: ProjectSettings\MemorySettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\NavMeshAreas.asset
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\ProjectSettings\\NavMeshAreas.asset"
+        fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\NavMeshAreas.asset
         projectPath: ProjectSettings\NavMeshAreas.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\NetworkManager.asset
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\ProjectSettings\\NetworkManager.asset"
+        fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\NetworkManager.asset
         projectPath: ProjectSettings\NetworkManager.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\PackageManagerSettings.asset
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\ProjectSettings\\PackageManagerSettings.asset"
+        fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\PackageManagerSettings.asset
         projectPath: ProjectSettings\PackageManagerSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\Physics2DSettings.asset
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\ProjectSettings\\Physics2DSettings.asset"
+        fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\Physics2DSettings.asset
         projectPath: ProjectSettings\Physics2DSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\PresetManager.asset
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\ProjectSettings\\PresetManager.asset"
+        fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\PresetManager.asset
         projectPath: ProjectSettings\PresetManager.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\ProjectSettings.asset
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\ProjectSettings\\ProjectSettings.asset"
+        fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\ProjectSettings.asset
         projectPath: ProjectSettings\ProjectSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\ProjectVersion.txt
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\ProjectSettings\\ProjectVersion.txt"
+        fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\ProjectVersion.txt
         projectPath: ProjectSettings\ProjectVersion.txt
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\QualitySettings.asset
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\ProjectSettings\\QualitySettings.asset"
+        fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\QualitySettings.asset
         projectPath: ProjectSettings\QualitySettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\SceneTemplateSettings.json
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\ProjectSettings\\SceneTemplateSettings.json"
+        fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\SceneTemplateSettings.json
         projectPath: ProjectSettings\SceneTemplateSettings.json
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\TagManager.asset
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\ProjectSettings\\TagManager.asset"
+        fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\TagManager.asset
         projectPath: ProjectSettings\TagManager.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\TimeManager.asset
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\ProjectSettings\\TimeManager.asset"
+        fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\TimeManager.asset
         projectPath: ProjectSettings\TimeManager.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\UnityConnectSettings.asset
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\ProjectSettings\\UnityConnectSettings.asset"
+        fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\UnityConnectSettings.asset
         projectPath: ProjectSettings\UnityConnectSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\VFXManager.asset
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\ProjectSettings\\VFXManager.asset"
+        fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\VFXManager.asset
         projectPath: ProjectSettings\VFXManager.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\VersionControlSettings.asset
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\ProjectSettings\\VersionControlSettings.asset"
+        fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\VersionControlSettings.asset
         projectPath: ProjectSettings\VersionControlSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\XRSettings.asset
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\ProjectSettings\\XRSettings.asset"
+        fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\XRSettings.asset
         projectPath: ProjectSettings\XRSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: UserSettings\EditorUserSettings.asset
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\UserSettings\\EditorUserSettings.asset"
+        fullPath: C:\Users\Nastichka\haibogmilue\UserSettings\EditorUserSettings.asset
         projectPath: UserSettings\EditorUserSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\UserSettings\\Layouts\\CurrentMaximizeLayout.dwlt"
+        fullPath: C:\Users\Nastichka\haibogmilue\UserSettings\Layouts\CurrentMaximizeLayout.dwlt
         projectPath: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: UserSettings\Layouts\default-2022.dwlt
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\UserSettings\\Layouts\\default-2022.dwlt"
+        fullPath: C:\Users\Nastichka\haibogmilue\UserSettings\Layouts\default-2022.dwlt
         projectPath: UserSettings\Layouts\default-2022.dwlt
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: UserSettings\Search.index
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\UserSettings\\Search.index"
+        fullPath: C:\Users\Nastichka\haibogmilue\UserSettings\Search.index
         projectPath: UserSettings\Search.index
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: UserSettings\Search.settings
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\UserSettings\\Search.settings"
+        fullPath: C:\Users\Nastichka\haibogmilue\UserSettings\Search.settings
         projectPath: UserSettings\Search.settings
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ignore.conf
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\ignore.conf"
+        fullPath: C:\Users\Nastichka\haibogmilue\ignore.conf
         projectPath: ignore.conf
         originalPath: 
         indexStatus: 4
@@ -883,36 +1144,87 @@ MonoBehaviour:
       commitTimeString: 2025-01-19T17:07:00.000+01:00
       changes:
       - path: .gitattributes
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\.gitattributes"
+        fullPath: C:\Users\Nastichka\haibogmilue\.gitattributes
         projectPath: .gitattributes
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: .gitignore
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\.gitignore"
+        fullPath: C:\Users\Nastichka\haibogmilue\.gitignore
         projectPath: .gitignore
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\.gitignore
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\Assets\\.gitignore"
+        fullPath: C:\Users\Nastichka\haibogmilue\Assets\.gitignore
         projectPath: Assets\.gitignore
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
     statusAhead: 0
     lastLogChangedEvent:
-      updatedTimeString: 2025-01-19T17:10:07.267+01:00
+      updatedTimeString: 2025-01-21T14:35:26.233+02:00
       cacheType: 3
     lastTrackingStatusChangedEvent:
-      updatedTimeString: 2025-01-19T17:10:12.707+01:00
+      updatedTimeString: 2025-01-21T14:35:26.256+02:00
       cacheType: 5
     historyControl:
       scroll: {x: 0, y: 0}
       entries:
+      - commitID: be6e2270a7cb63aa17961a54aaebd7bb671431a5
+        mergeA: 
+        mergeB: 
+        authorName: Asya05Tree
+        authorEmail: nastenka05m@gmail.com
+        commitEmail: nastenka05m@gmail.com
+        commitName: Asya05Tree
+        summary: test
+        description: 
+        timeString: 2025-01-21T14:34:45.000+02:00
+        commitTimeString: 2025-01-21T14:34:45.000+02:00
+        changes:
+        - path: Assets\Scenes\SampleScene.unity
+          fullPath: C:\Users\Nastichka\haibogmilue\Assets\Scenes\SampleScene.unity
+          projectPath: Assets\Scenes\SampleScene.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: 6b09f701de337fce078bedd393ebe28f35f9cfb4
+        mergeA: 
+        mergeB: 
+        authorName: Oleksandr Shkurkin
+        authorEmail: saha.sanek.555@gmail.com
+        commitEmail: saha.sanek.555@gmail.com
+        commitName: Oleksandr Shkurkin
+        summary: committest
+        description: 
+        timeString: 2025-01-19T20:25:53.000+01:00
+        commitTimeString: 2025-01-19T20:25:53.000+01:00
+        changes:
+        - path: Assets\Scenes\SampleScene.unity
+          fullPath: C:\Users\Nastichka\haibogmilue\Assets\Scenes\SampleScene.unity
+          projectPath: Assets\Scenes\SampleScene.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: a1e865869cb759523ea4526397e8fc16f32637ec
+        mergeA: 
+        mergeB: 
+        authorName: Oleksandr Shkurkin
+        authorEmail: saha.sanek.555@gmail.com
+        commitEmail: saha.sanek.555@gmail.com
+        commitName: Oleksandr Shkurkin
+        summary: commit
+        description: 
+        timeString: 2025-01-19T20:23:07.000+01:00
+        commitTimeString: 2025-01-19T20:23:07.000+01:00
+        changes:
+        - path: UserSettings\Layouts\default-2022.dwlt
+          fullPath: C:\Users\Nastichka\haibogmilue\UserSettings\Layouts\default-2022.dwlt
+          projectPath: UserSettings\Layouts\default-2022.dwlt
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
       - commitID: d4c1c6224ba86bd01e7ce068b65c7dad7909db02
         mergeA: 
         mergeB: 
@@ -926,323 +1238,277 @@ MonoBehaviour:
         commitTimeString: 2025-01-19T17:09:44.000+01:00
         changes:
         - path: .collabignore
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\.collabignore"
+          fullPath: C:\Users\Nastichka\haibogmilue\.collabignore
           projectPath: .collabignore
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: .plastic\cachedtrees\56e62dd7-241f-41e9-8c6b-dd4ca4513e62.7
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\.plastic\\cachedtrees\\56e62dd7-241f-41e9-8c6b-dd4ca4513e62.7"
+          fullPath: C:\Users\Nastichka\haibogmilue\.plastic\cachedtrees\56e62dd7-241f-41e9-8c6b-dd4ca4513e62.7
           projectPath: .plastic\cachedtrees\56e62dd7-241f-41e9-8c6b-dd4ca4513e62.7
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: .plastic\plastic.fullupdate
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\.plastic\\plastic.fullupdate"
+          fullPath: C:\Users\Nastichka\haibogmilue\.plastic\plastic.fullupdate
           projectPath: .plastic\plastic.fullupdate
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: .plastic\plastic.fullycheckeddirectories
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\.plastic\\plastic.fullycheckeddirectories"
+          fullPath: C:\Users\Nastichka\haibogmilue\.plastic\plastic.fullycheckeddirectories
           projectPath: .plastic\plastic.fullycheckeddirectories
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: .plastic\plastic.selector
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\.plastic\\plastic.selector"
+          fullPath: C:\Users\Nastichka\haibogmilue\.plastic\plastic.selector
           projectPath: .plastic\plastic.selector
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: .plastic\plastic.wktree
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\.plastic\\plastic.wktree"
+          fullPath: C:\Users\Nastichka\haibogmilue\.plastic\plastic.wktree
           projectPath: .plastic\plastic.wktree
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: .plastic\plastic.workspace
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\.plastic\\plastic.workspace"
+          fullPath: C:\Users\Nastichka\haibogmilue\.plastic\plastic.workspace
           projectPath: .plastic\plastic.workspace
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: .plastic\preview\version
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\.plastic\\preview\\version"
+          fullPath: C:\Users\Nastichka\haibogmilue\.plastic\preview\version
           projectPath: .plastic\preview\version
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: .vsconfig
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\.vsconfig"
+          fullPath: C:\Users\Nastichka\haibogmilue\.vsconfig
           projectPath: .vsconfig
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Scenes.meta
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\Assets\\Scenes.meta"
+          fullPath: C:\Users\Nastichka\haibogmilue\Assets\Scenes.meta
           projectPath: Assets\Scenes.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Scenes\SampleScene.unity
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\Assets\\Scenes\\SampleScene.unity"
+          fullPath: C:\Users\Nastichka\haibogmilue\Assets\Scenes\SampleScene.unity
           projectPath: Assets\Scenes\SampleScene.unity
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Scenes\SampleScene.unity.meta
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\Assets\\Scenes\\SampleScene.unity.meta"
+          fullPath: C:\Users\Nastichka\haibogmilue\Assets\Scenes\SampleScene.unity.meta
           projectPath: Assets\Scenes\SampleScene.unity.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Scripts.meta
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\Assets\\Scripts.meta"
+          fullPath: C:\Users\Nastichka\haibogmilue\Assets\Scripts.meta
           projectPath: Assets\Scripts.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Scripts\PlayerMovement.cs
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\Assets\\Scripts\\PlayerMovement.cs"
+          fullPath: C:\Users\Nastichka\haibogmilue\Assets\Scripts\PlayerMovement.cs
           projectPath: Assets\Scripts\PlayerMovement.cs
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Scripts\PlayerMovement.cs.meta
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\Assets\\Scripts\\PlayerMovement.cs.meta"
+          fullPath: C:\Users\Nastichka\haibogmilue\Assets\Scripts\PlayerMovement.cs.meta
           projectPath: Assets\Scripts\PlayerMovement.cs.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Packages\manifest.json
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\Packages\\manifest.json"
+          fullPath: C:\Users\Nastichka\haibogmilue\Packages\manifest.json
           projectPath: Packages\manifest.json
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Packages\packages-lock.json
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\Packages\\packages-lock.json"
+          fullPath: C:\Users\Nastichka\haibogmilue\Packages\packages-lock.json
           projectPath: Packages\packages-lock.json
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\AudioManager.asset
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\ProjectSettings\\AudioManager.asset"
+          fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\AudioManager.asset
           projectPath: ProjectSettings\AudioManager.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\ClusterInputManager.asset
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\ProjectSettings\\ClusterInputManager.asset"
+          fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\ClusterInputManager.asset
           projectPath: ProjectSettings\ClusterInputManager.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\DynamicsManager.asset
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\ProjectSettings\\DynamicsManager.asset"
+          fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\DynamicsManager.asset
           projectPath: ProjectSettings\DynamicsManager.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\EditorBuildSettings.asset
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\ProjectSettings\\EditorBuildSettings.asset"
+          fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\EditorBuildSettings.asset
           projectPath: ProjectSettings\EditorBuildSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\EditorSettings.asset
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\ProjectSettings\\EditorSettings.asset"
+          fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\EditorSettings.asset
           projectPath: ProjectSettings\EditorSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\GraphicsSettings.asset
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\ProjectSettings\\GraphicsSettings.asset"
+          fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\GraphicsSettings.asset
           projectPath: ProjectSettings\GraphicsSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\InputManager.asset
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\ProjectSettings\\InputManager.asset"
+          fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\InputManager.asset
           projectPath: ProjectSettings\InputManager.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\MemorySettings.asset
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\ProjectSettings\\MemorySettings.asset"
+          fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\MemorySettings.asset
           projectPath: ProjectSettings\MemorySettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\NavMeshAreas.asset
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\ProjectSettings\\NavMeshAreas.asset"
+          fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\NavMeshAreas.asset
           projectPath: ProjectSettings\NavMeshAreas.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\NetworkManager.asset
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\ProjectSettings\\NetworkManager.asset"
+          fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\NetworkManager.asset
           projectPath: ProjectSettings\NetworkManager.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\PackageManagerSettings.asset
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\ProjectSettings\\PackageManagerSettings.asset"
+          fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\PackageManagerSettings.asset
           projectPath: ProjectSettings\PackageManagerSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\Physics2DSettings.asset
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\ProjectSettings\\Physics2DSettings.asset"
+          fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\Physics2DSettings.asset
           projectPath: ProjectSettings\Physics2DSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\PresetManager.asset
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\ProjectSettings\\PresetManager.asset"
+          fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\PresetManager.asset
           projectPath: ProjectSettings\PresetManager.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\ProjectSettings.asset
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\ProjectSettings\\ProjectSettings.asset"
+          fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\ProjectSettings.asset
           projectPath: ProjectSettings\ProjectSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\ProjectVersion.txt
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\ProjectSettings\\ProjectVersion.txt"
+          fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\ProjectVersion.txt
           projectPath: ProjectSettings\ProjectVersion.txt
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\QualitySettings.asset
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\ProjectSettings\\QualitySettings.asset"
+          fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\QualitySettings.asset
           projectPath: ProjectSettings\QualitySettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\SceneTemplateSettings.json
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\ProjectSettings\\SceneTemplateSettings.json"
+          fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\SceneTemplateSettings.json
           projectPath: ProjectSettings\SceneTemplateSettings.json
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\TagManager.asset
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\ProjectSettings\\TagManager.asset"
+          fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\TagManager.asset
           projectPath: ProjectSettings\TagManager.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\TimeManager.asset
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\ProjectSettings\\TimeManager.asset"
+          fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\TimeManager.asset
           projectPath: ProjectSettings\TimeManager.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\UnityConnectSettings.asset
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\ProjectSettings\\UnityConnectSettings.asset"
+          fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\UnityConnectSettings.asset
           projectPath: ProjectSettings\UnityConnectSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\VFXManager.asset
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\ProjectSettings\\VFXManager.asset"
+          fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\VFXManager.asset
           projectPath: ProjectSettings\VFXManager.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\VersionControlSettings.asset
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\ProjectSettings\\VersionControlSettings.asset"
+          fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\VersionControlSettings.asset
           projectPath: ProjectSettings\VersionControlSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\XRSettings.asset
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\ProjectSettings\\XRSettings.asset"
+          fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\XRSettings.asset
           projectPath: ProjectSettings\XRSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: UserSettings\EditorUserSettings.asset
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\UserSettings\\EditorUserSettings.asset"
+          fullPath: C:\Users\Nastichka\haibogmilue\UserSettings\EditorUserSettings.asset
           projectPath: UserSettings\EditorUserSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\UserSettings\\Layouts\\CurrentMaximizeLayout.dwlt"
+          fullPath: C:\Users\Nastichka\haibogmilue\UserSettings\Layouts\CurrentMaximizeLayout.dwlt
           projectPath: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: UserSettings\Layouts\default-2022.dwlt
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\UserSettings\\Layouts\\default-2022.dwlt"
+          fullPath: C:\Users\Nastichka\haibogmilue\UserSettings\Layouts\default-2022.dwlt
           projectPath: UserSettings\Layouts\default-2022.dwlt
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: UserSettings\Search.index
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\UserSettings\\Search.index"
+          fullPath: C:\Users\Nastichka\haibogmilue\UserSettings\Search.index
           projectPath: UserSettings\Search.index
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: UserSettings\Search.settings
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\UserSettings\\Search.settings"
+          fullPath: C:\Users\Nastichka\haibogmilue\UserSettings\Search.settings
           projectPath: UserSettings\Search.settings
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ignore.conf
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\ignore.conf"
+          fullPath: C:\Users\Nastichka\haibogmilue\ignore.conf
           projectPath: ignore.conf
           originalPath: 
           indexStatus: 4
@@ -1260,1642 +1526,55 @@ MonoBehaviour:
         commitTimeString: 2025-01-19T17:07:00.000+01:00
         changes:
         - path: .gitattributes
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\.gitattributes"
+          fullPath: C:\Users\Nastichka\haibogmilue\.gitattributes
           projectPath: .gitattributes
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: .gitignore
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\.gitignore"
+          fullPath: C:\Users\Nastichka\haibogmilue\.gitignore
           projectPath: .gitignore
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\.gitignore
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\Assets\\.gitignore"
+          fullPath: C:\Users\Nastichka\haibogmilue\Assets\.gitignore
           projectPath: Assets\.gitignore
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
       statusAhead: 0
-      selectedIndex: 0
+      selectedIndex: -1
     selectedEntry:
-      commitID: d4c1c6224ba86bd01e7ce068b65c7dad7909db02
+      commitID: 
       mergeA: 
       mergeB: 
-      authorName: Oleksandr Shkurkin
-      authorEmail: saha.sanek.555@gmail.com
-      commitEmail: saha.sanek.555@gmail.com
-      commitName: Oleksandr Shkurkin
-      summary: testCommit
+      authorName: 
+      authorEmail: 
+      commitEmail: 
+      commitName: 
+      summary: 
       description: 
-      timeString: 2025-01-19T17:09:44.000+01:00
-      commitTimeString: 2025-01-19T17:09:44.000+01:00
-      changes:
-      - path: .collabignore
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\.collabignore"
-        projectPath: .collabignore
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: .plastic\cachedtrees\56e62dd7-241f-41e9-8c6b-dd4ca4513e62.7
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\.plastic\\cachedtrees\\56e62dd7-241f-41e9-8c6b-dd4ca4513e62.7"
-        projectPath: .plastic\cachedtrees\56e62dd7-241f-41e9-8c6b-dd4ca4513e62.7
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: .plastic\plastic.fullupdate
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\.plastic\\plastic.fullupdate"
-        projectPath: .plastic\plastic.fullupdate
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: .plastic\plastic.fullycheckeddirectories
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\.plastic\\plastic.fullycheckeddirectories"
-        projectPath: .plastic\plastic.fullycheckeddirectories
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: .plastic\plastic.selector
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\.plastic\\plastic.selector"
-        projectPath: .plastic\plastic.selector
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: .plastic\plastic.wktree
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\.plastic\\plastic.wktree"
-        projectPath: .plastic\plastic.wktree
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: .plastic\plastic.workspace
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\.plastic\\plastic.workspace"
-        projectPath: .plastic\plastic.workspace
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: .plastic\preview\version
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\.plastic\\preview\\version"
-        projectPath: .plastic\preview\version
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: .vsconfig
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\.vsconfig"
-        projectPath: .vsconfig
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Scenes.meta
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\Assets\\Scenes.meta"
-        projectPath: Assets\Scenes.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Scenes\SampleScene.unity
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\Assets\\Scenes\\SampleScene.unity"
-        projectPath: Assets\Scenes\SampleScene.unity
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Scenes\SampleScene.unity.meta
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\Assets\\Scenes\\SampleScene.unity.meta"
-        projectPath: Assets\Scenes\SampleScene.unity.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Scripts.meta
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\Assets\\Scripts.meta"
-        projectPath: Assets\Scripts.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Scripts\PlayerMovement.cs
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\Assets\\Scripts\\PlayerMovement.cs"
-        projectPath: Assets\Scripts\PlayerMovement.cs
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Assets\Scripts\PlayerMovement.cs.meta
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\Assets\\Scripts\\PlayerMovement.cs.meta"
-        projectPath: Assets\Scripts\PlayerMovement.cs.meta
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Packages\manifest.json
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\Packages\\manifest.json"
-        projectPath: Packages\manifest.json
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: Packages\packages-lock.json
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\Packages\\packages-lock.json"
-        projectPath: Packages\packages-lock.json
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\AudioManager.asset
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\ProjectSettings\\AudioManager.asset"
-        projectPath: ProjectSettings\AudioManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\ClusterInputManager.asset
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\ProjectSettings\\ClusterInputManager.asset"
-        projectPath: ProjectSettings\ClusterInputManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\DynamicsManager.asset
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\ProjectSettings\\DynamicsManager.asset"
-        projectPath: ProjectSettings\DynamicsManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\EditorBuildSettings.asset
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\ProjectSettings\\EditorBuildSettings.asset"
-        projectPath: ProjectSettings\EditorBuildSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\EditorSettings.asset
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\ProjectSettings\\EditorSettings.asset"
-        projectPath: ProjectSettings\EditorSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\GraphicsSettings.asset
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\ProjectSettings\\GraphicsSettings.asset"
-        projectPath: ProjectSettings\GraphicsSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\InputManager.asset
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\ProjectSettings\\InputManager.asset"
-        projectPath: ProjectSettings\InputManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\MemorySettings.asset
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\ProjectSettings\\MemorySettings.asset"
-        projectPath: ProjectSettings\MemorySettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\NavMeshAreas.asset
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\ProjectSettings\\NavMeshAreas.asset"
-        projectPath: ProjectSettings\NavMeshAreas.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\NetworkManager.asset
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\ProjectSettings\\NetworkManager.asset"
-        projectPath: ProjectSettings\NetworkManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\PackageManagerSettings.asset
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\ProjectSettings\\PackageManagerSettings.asset"
-        projectPath: ProjectSettings\PackageManagerSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\Physics2DSettings.asset
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\ProjectSettings\\Physics2DSettings.asset"
-        projectPath: ProjectSettings\Physics2DSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\PresetManager.asset
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\ProjectSettings\\PresetManager.asset"
-        projectPath: ProjectSettings\PresetManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\ProjectSettings.asset
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\ProjectSettings\\ProjectSettings.asset"
-        projectPath: ProjectSettings\ProjectSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\ProjectVersion.txt
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\ProjectSettings\\ProjectVersion.txt"
-        projectPath: ProjectSettings\ProjectVersion.txt
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\QualitySettings.asset
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\ProjectSettings\\QualitySettings.asset"
-        projectPath: ProjectSettings\QualitySettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\SceneTemplateSettings.json
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\ProjectSettings\\SceneTemplateSettings.json"
-        projectPath: ProjectSettings\SceneTemplateSettings.json
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\TagManager.asset
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\ProjectSettings\\TagManager.asset"
-        projectPath: ProjectSettings\TagManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\TimeManager.asset
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\ProjectSettings\\TimeManager.asset"
-        projectPath: ProjectSettings\TimeManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\UnityConnectSettings.asset
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\ProjectSettings\\UnityConnectSettings.asset"
-        projectPath: ProjectSettings\UnityConnectSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\VFXManager.asset
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\ProjectSettings\\VFXManager.asset"
-        projectPath: ProjectSettings\VFXManager.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\VersionControlSettings.asset
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\ProjectSettings\\VersionControlSettings.asset"
-        projectPath: ProjectSettings\VersionControlSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ProjectSettings\XRSettings.asset
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\ProjectSettings\\XRSettings.asset"
-        projectPath: ProjectSettings\XRSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: UserSettings\EditorUserSettings.asset
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\UserSettings\\EditorUserSettings.asset"
-        projectPath: UserSettings\EditorUserSettings.asset
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\UserSettings\\Layouts\\CurrentMaximizeLayout.dwlt"
-        projectPath: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: UserSettings\Layouts\default-2022.dwlt
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\UserSettings\\Layouts\\default-2022.dwlt"
-        projectPath: UserSettings\Layouts\default-2022.dwlt
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: UserSettings\Search.index
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\UserSettings\\Search.index"
-        projectPath: UserSettings\Search.index
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: UserSettings\Search.settings
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\UserSettings\\Search.settings"
-        projectPath: UserSettings\Search.settings
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-      - path: ignore.conf
-        fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-          project\\ignore.conf"
-        projectPath: ignore.conf
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
+      timeString: 0001-01-01T00:00:00.000+00:00
+      commitTimeString: 0001-01-01T00:00:00.000+00:00
+      changes: []
     treeChanges:
       assets:
         keys: []
         values: []
       folders:
-        keys:
-        - .plastic
-        - .plastic\cachedtrees
-        - .plastic\preview
-        - Assets
-        - Assets\Scenes
-        - Assets\Scripts
-        - Packages
-        - ProjectSettings
-        - UserSettings
-        - UserSettings\Layouts
-        values:
-        - path: .plastic
-          label: .plastic
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 0
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: .plastic\cachedtrees
-          label: cachedtrees
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 0
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: .plastic\preview
-          label: preview
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 0
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets
-          label: Assets
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 0
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Scenes
-          label: Scenes
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 0
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Scripts
-          label: Scripts
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 0
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Packages
-          label: Packages
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 0
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: ProjectSettings
-          label: ProjectSettings
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 0
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: UserSettings
-          label: UserSettings
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 0
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: UserSettings\Layouts
-          label: Layouts
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 0
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
+        keys: []
+        values: []
       checkedFileNodes:
         keys: []
         values: []
       title: 
-      pathSeparator: \
+      pathSeparator: /
       displayRootNode: 0
       isSelectable: 1
       isCheckable: 0
       isUsingGlobalSelection: 0
-      nodes:
-      - path: 
-        label: 
-        level: -1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: .collabignore
-        label: .collabignore
-        level: 0
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: .collabignore
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\.collabignore"
-          projectPath: .collabignore
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: .plastic
-        label: .plastic
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: .plastic\cachedtrees
-        label: cachedtrees
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: .plastic\cachedtrees\56e62dd7-241f-41e9-8c6b-dd4ca4513e62.7
-        label: 56e62dd7-241f-41e9-8c6b-dd4ca4513e62.7
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: .plastic\cachedtrees\56e62dd7-241f-41e9-8c6b-dd4ca4513e62.7
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\.plastic\\cachedtrees\\56e62dd7-241f-41e9-8c6b-dd4ca4513e62.7"
-          projectPath: .plastic\cachedtrees\56e62dd7-241f-41e9-8c6b-dd4ca4513e62.7
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: .plastic\plastic.fullupdate
-        label: plastic.fullupdate
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: .plastic\plastic.fullupdate
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\.plastic\\plastic.fullupdate"
-          projectPath: .plastic\plastic.fullupdate
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: .plastic\plastic.fullycheckeddirectories
-        label: plastic.fullycheckeddirectories
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: .plastic\plastic.fullycheckeddirectories
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\.plastic\\plastic.fullycheckeddirectories"
-          projectPath: .plastic\plastic.fullycheckeddirectories
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: .plastic\plastic.selector
-        label: plastic.selector
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: .plastic\plastic.selector
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\.plastic\\plastic.selector"
-          projectPath: .plastic\plastic.selector
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: .plastic\plastic.wktree
-        label: plastic.wktree
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: .plastic\plastic.wktree
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\.plastic\\plastic.wktree"
-          projectPath: .plastic\plastic.wktree
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: .plastic\plastic.workspace
-        label: plastic.workspace
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: .plastic\plastic.workspace
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\.plastic\\plastic.workspace"
-          projectPath: .plastic\plastic.workspace
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: .plastic\preview
-        label: preview
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: .plastic\preview\version
-        label: version
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: .plastic\preview\version
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\.plastic\\preview\\version"
-          projectPath: .plastic\preview\version
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: .vsconfig
-        label: .vsconfig
-        level: 0
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: .vsconfig
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\.vsconfig"
-          projectPath: .vsconfig
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: Assets
-        label: Assets
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Scenes.meta
-        label: Scenes.meta
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scenes.meta
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\Assets\\Scenes.meta"
-          projectPath: Assets\Scenes.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: Assets\Scenes
-        label: Scenes
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Scenes\SampleScene.unity
-        label: SampleScene.unity
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scenes\SampleScene.unity
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\Assets\\Scenes\\SampleScene.unity"
-          projectPath: Assets\Scenes\SampleScene.unity
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: Assets\Scenes\SampleScene.unity.meta
-        label: SampleScene.unity.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scenes\SampleScene.unity.meta
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\Assets\\Scenes\\SampleScene.unity.meta"
-          projectPath: Assets\Scenes\SampleScene.unity.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: Assets\Scripts.meta
-        label: Scripts.meta
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts.meta
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\Assets\\Scripts.meta"
-          projectPath: Assets\Scripts.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: Assets\Scripts
-        label: Scripts
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Scripts\PlayerMovement.cs
-        label: PlayerMovement.cs
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\PlayerMovement.cs
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\Assets\\Scripts\\PlayerMovement.cs"
-          projectPath: Assets\Scripts\PlayerMovement.cs
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: Assets\Scripts\PlayerMovement.cs.meta
-        label: PlayerMovement.cs.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\PlayerMovement.cs.meta
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\Assets\\Scripts\\PlayerMovement.cs.meta"
-          projectPath: Assets\Scripts\PlayerMovement.cs.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: Packages
-        label: Packages
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Packages\manifest.json
-        label: manifest.json
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Packages\manifest.json
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\Packages\\manifest.json"
-          projectPath: Packages\manifest.json
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: Packages\packages-lock.json
-        label: packages-lock.json
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Packages\packages-lock.json
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\Packages\\packages-lock.json"
-          projectPath: Packages\packages-lock.json
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings
-        label: ProjectSettings
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: ProjectSettings\AudioManager.asset
-        label: AudioManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\AudioManager.asset
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\ProjectSettings\\AudioManager.asset"
-          projectPath: ProjectSettings\AudioManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\ClusterInputManager.asset
-        label: ClusterInputManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\ClusterInputManager.asset
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\ProjectSettings\\ClusterInputManager.asset"
-          projectPath: ProjectSettings\ClusterInputManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\DynamicsManager.asset
-        label: DynamicsManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\DynamicsManager.asset
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\ProjectSettings\\DynamicsManager.asset"
-          projectPath: ProjectSettings\DynamicsManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\EditorBuildSettings.asset
-        label: EditorBuildSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\EditorBuildSettings.asset
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\ProjectSettings\\EditorBuildSettings.asset"
-          projectPath: ProjectSettings\EditorBuildSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\EditorSettings.asset
-        label: EditorSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\EditorSettings.asset
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\ProjectSettings\\EditorSettings.asset"
-          projectPath: ProjectSettings\EditorSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\GraphicsSettings.asset
-        label: GraphicsSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\GraphicsSettings.asset
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\ProjectSettings\\GraphicsSettings.asset"
-          projectPath: ProjectSettings\GraphicsSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\InputManager.asset
-        label: InputManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\InputManager.asset
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\ProjectSettings\\InputManager.asset"
-          projectPath: ProjectSettings\InputManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\MemorySettings.asset
-        label: MemorySettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\MemorySettings.asset
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\ProjectSettings\\MemorySettings.asset"
-          projectPath: ProjectSettings\MemorySettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\NavMeshAreas.asset
-        label: NavMeshAreas.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\NavMeshAreas.asset
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\ProjectSettings\\NavMeshAreas.asset"
-          projectPath: ProjectSettings\NavMeshAreas.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\NetworkManager.asset
-        label: NetworkManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\NetworkManager.asset
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\ProjectSettings\\NetworkManager.asset"
-          projectPath: ProjectSettings\NetworkManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\PackageManagerSettings.asset
-        label: PackageManagerSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\PackageManagerSettings.asset
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\ProjectSettings\\PackageManagerSettings.asset"
-          projectPath: ProjectSettings\PackageManagerSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\Physics2DSettings.asset
-        label: Physics2DSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\Physics2DSettings.asset
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\ProjectSettings\\Physics2DSettings.asset"
-          projectPath: ProjectSettings\Physics2DSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\PresetManager.asset
-        label: PresetManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\PresetManager.asset
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\ProjectSettings\\PresetManager.asset"
-          projectPath: ProjectSettings\PresetManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\ProjectSettings.asset
-        label: ProjectSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\ProjectSettings.asset
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\ProjectSettings\\ProjectSettings.asset"
-          projectPath: ProjectSettings\ProjectSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\ProjectVersion.txt
-        label: ProjectVersion.txt
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\ProjectVersion.txt
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\ProjectSettings\\ProjectVersion.txt"
-          projectPath: ProjectSettings\ProjectVersion.txt
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\QualitySettings.asset
-        label: QualitySettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\QualitySettings.asset
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\ProjectSettings\\QualitySettings.asset"
-          projectPath: ProjectSettings\QualitySettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\SceneTemplateSettings.json
-        label: SceneTemplateSettings.json
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\SceneTemplateSettings.json
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\ProjectSettings\\SceneTemplateSettings.json"
-          projectPath: ProjectSettings\SceneTemplateSettings.json
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\TagManager.asset
-        label: TagManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\TagManager.asset
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\ProjectSettings\\TagManager.asset"
-          projectPath: ProjectSettings\TagManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\TimeManager.asset
-        label: TimeManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\TimeManager.asset
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\ProjectSettings\\TimeManager.asset"
-          projectPath: ProjectSettings\TimeManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\UnityConnectSettings.asset
-        label: UnityConnectSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\UnityConnectSettings.asset
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\ProjectSettings\\UnityConnectSettings.asset"
-          projectPath: ProjectSettings\UnityConnectSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\VFXManager.asset
-        label: VFXManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\VFXManager.asset
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\ProjectSettings\\VFXManager.asset"
-          projectPath: ProjectSettings\VFXManager.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\VersionControlSettings.asset
-        label: VersionControlSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\VersionControlSettings.asset
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\ProjectSettings\\VersionControlSettings.asset"
-          projectPath: ProjectSettings\VersionControlSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ProjectSettings\XRSettings.asset
-        label: XRSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\XRSettings.asset
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\ProjectSettings\\XRSettings.asset"
-          projectPath: ProjectSettings\XRSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: UserSettings
-        label: UserSettings
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: UserSettings\EditorUserSettings.asset
-        label: EditorUserSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: UserSettings\EditorUserSettings.asset
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\UserSettings\\EditorUserSettings.asset"
-          projectPath: UserSettings\EditorUserSettings.asset
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: UserSettings\Layouts
-        label: Layouts
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
-        label: CurrentMaximizeLayout.dwlt
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\UserSettings\\Layouts\\CurrentMaximizeLayout.dwlt"
-          projectPath: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: UserSettings\Layouts\default-2022.dwlt
-        label: default-2022.dwlt
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: UserSettings\Layouts\default-2022.dwlt
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\UserSettings\\Layouts\\default-2022.dwlt"
-          projectPath: UserSettings\Layouts\default-2022.dwlt
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: UserSettings\Search.index
-        label: Search.index
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: UserSettings\Search.index
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\UserSettings\\Search.index"
-          projectPath: UserSettings\Search.index
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: UserSettings\Search.settings
-        label: Search.settings
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: UserSettings\Search.settings
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\UserSettings\\Search.settings"
-          projectPath: UserSettings\Search.settings
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: ignore.conf
-        label: ignore.conf
-        level: 0
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ignore.conf
-          fullPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-            project\\ignore.conf"
-          projectPath: ignore.conf
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
+      nodes: []
       selectedNode:
         path: 
         label: 
@@ -2918,8 +1597,8 @@ MonoBehaviour:
     detailsScroll: {x: 0, y: 0}
   settingsView:
     gitPathView:
-      gitPath: C:\Users\sahas\AppData\Local\GitForUnity\git\cmd\git.exe
-      gitLfsPath: C:\Users\sahas\AppData\Local\GitForUnity\git\mingw64\libexec\git-core\git-lfs.exe
+      gitPath: C:\Users\Nastichka\AppData\Local\GitForUnity\git\cmd\git.exe
+      gitLfsPath: C:\Users\Nastichka\AppData\Local\GitForUnity\git\mingw64\libexec\git-core\git-lfs.exe
       errorMessage: 
       resetToBundled: 0
       resetToSystem: 0
@@ -2927,20 +1606,20 @@ MonoBehaviour:
       installSettingsHidden: 0
     hasRemote: 1
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 2025-01-19T17:13:38.231+01:00
+      updatedTimeString: 2025-01-21T14:23:45.075+02:00
       cacheType: 1
     newRepositoryRemoteUrl: https://github.com/AleksandrShkurkin/repoTest.git
     repositoryRemoteName: origin
     repositoryRemoteUrl: https://github.com/AleksandrShkurkin/repoTest.git
     scroll: {x: 0, y: 0}
     userSettingsView:
-      gitName: Oleksandr Shkurkin
-      gitEmail: saha.sanek.555@gmail.com
-      newGitName: Oleksandr Shkurkin
-      newGitEmail: saha.sanek.555@gmail.com
+      gitName: Asya05Tree
+      gitEmail: nastenka05m@gmail.com
+      newGitName: Asya05Tree
+      newGitEmail: nastenka05m@gmail.com
       needsSaving: 0
       lastCheckUserChangedEvent:
-        updatedTimeString: 2025-01-19T17:05:44.400+01:00
+        updatedTimeString: 2025-01-21T14:24:23.130+02:00
         cacheType: 8
       configSettingsHidden: 0
     repositorySettingsHidden: 0
@@ -2971,18 +1650,210 @@ MonoBehaviour:
             email: 
           lockedAtString: 
         gitFileStatus: 0
-        lockedAt: 1 Jan 0001, 01:00
+        lockedAt: "1 \u0441\u0456\u0447 0001, 02:00"
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 2025-01-19T17:08:45.454+01:00
+      updatedTimeString: 2025-01-21T14:23:45.075+02:00
       cacheType: 1
     lastLocksChangedEvent:
-      updatedTimeString: 2025-01-19T17:10:07.391+01:00
+      updatedTimeString: 2025-01-21T14:24:27.381+02:00
       cacheType: 7
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2025-01-19T17:09:45.287+01:00
+      updatedTimeString: 2025-01-21T14:24:26.475+02:00
       cacheType: 6
     lockedFiles: []
-    gitStatusEntries: []
+    gitStatusEntries:
+    - path: .vsconfig
+      fullPath: C:\Users\Nastichka\haibogmilue\.vsconfig
+      projectPath: .vsconfig
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scenes.meta
+      fullPath: C:\Users\Nastichka\haibogmilue\Assets\Scenes.meta
+      projectPath: Assets\Scenes.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scenes\SampleScene.unity
+      fullPath: C:\Users\Nastichka\haibogmilue\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scenes\SampleScene.unity.meta
+      fullPath: C:\Users\Nastichka\haibogmilue\Assets\Scenes\SampleScene.unity.meta
+      projectPath: Assets\Scenes\SampleScene.unity.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Packages\manifest.json
+      fullPath: C:\Users\Nastichka\haibogmilue\Packages\manifest.json
+      projectPath: Packages\manifest.json
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Packages\packages-lock.json
+      fullPath: C:\Users\Nastichka\haibogmilue\Packages\packages-lock.json
+      projectPath: Packages\packages-lock.json
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\AudioManager.asset
+      fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\AudioManager.asset
+      projectPath: ProjectSettings\AudioManager.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\ClusterInputManager.asset
+      fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\ClusterInputManager.asset
+      projectPath: ProjectSettings\ClusterInputManager.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\DynamicsManager.asset
+      fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\DynamicsManager.asset
+      projectPath: ProjectSettings\DynamicsManager.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\EditorBuildSettings.asset
+      fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\EditorBuildSettings.asset
+      projectPath: ProjectSettings\EditorBuildSettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\EditorSettings.asset
+      fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\EditorSettings.asset
+      projectPath: ProjectSettings\EditorSettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\GraphicsSettings.asset
+      fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\GraphicsSettings.asset
+      projectPath: ProjectSettings\GraphicsSettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\InputManager.asset
+      fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\InputManager.asset
+      projectPath: ProjectSettings\InputManager.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\MemorySettings.asset
+      fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\MemorySettings.asset
+      projectPath: ProjectSettings\MemorySettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\NavMeshAreas.asset
+      fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\NavMeshAreas.asset
+      projectPath: ProjectSettings\NavMeshAreas.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\NetworkManager.asset
+      fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\NetworkManager.asset
+      projectPath: ProjectSettings\NetworkManager.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\PackageManagerSettings.asset
+      fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\PackageManagerSettings.asset
+      projectPath: ProjectSettings\PackageManagerSettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\Physics2DSettings.asset
+      fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\Physics2DSettings.asset
+      projectPath: ProjectSettings\Physics2DSettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\PresetManager.asset
+      fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\PresetManager.asset
+      projectPath: ProjectSettings\PresetManager.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\ProjectSettings.asset
+      fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\ProjectSettings.asset
+      projectPath: ProjectSettings\ProjectSettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\ProjectVersion.txt
+      fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\ProjectVersion.txt
+      projectPath: ProjectSettings\ProjectVersion.txt
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\QualitySettings.asset
+      fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\QualitySettings.asset
+      projectPath: ProjectSettings\QualitySettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\TagManager.asset
+      fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\TagManager.asset
+      projectPath: ProjectSettings\TagManager.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\TimeManager.asset
+      fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\TimeManager.asset
+      projectPath: ProjectSettings\TimeManager.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\UnityConnectSettings.asset
+      fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\UnityConnectSettings.asset
+      projectPath: ProjectSettings\UnityConnectSettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\VersionControlSettings.asset
+      fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\VersionControlSettings.asset
+      projectPath: ProjectSettings\VersionControlSettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\VFXManager.asset
+      fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\VFXManager.asset
+      projectPath: ProjectSettings\VFXManager.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\XRSettings.asset
+      fullPath: C:\Users\Nastichka\haibogmilue\ProjectSettings\XRSettings.asset
+      projectPath: ProjectSettings\XRSettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UserSettings\EditorUserSettings.asset
+      fullPath: C:\Users\Nastichka\haibogmilue\UserSettings\EditorUserSettings.asset
+      projectPath: UserSettings\EditorUserSettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UserSettings\Layouts\default-2022.dwlt
+      fullPath: C:\Users\Nastichka\haibogmilue\UserSettings\Layouts\default-2022.dwlt
+      projectPath: UserSettings\Layouts\default-2022.dwlt
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UserSettings\Search.index
+      fullPath: C:\Users\Nastichka\haibogmilue\UserSettings\Search.index
+      projectPath: UserSettings\Search.index
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UserSettings\Search.settings
+      fullPath: C:\Users\Nastichka\haibogmilue\UserSettings\Search.settings
+      projectPath: UserSettings\Search.settings
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
     currentUsername: 
     unlockFileMenuContent:
       m_Text: Release Lock
@@ -2994,14 +1865,14 @@ MonoBehaviour:
       m_Tooltip: 
   hasRemote: 1
   currentRemoteName: origin
-  currentBranch: master
+  currentBranch: Nasya
   currentRemoteUrl: https://github.com/AleksandrShkurkin/repoTest.git
   statusAhead: 0
   statusBehind: 0
-  hasItemsToCommit: 0
+  hasItemsToCommit: 1
   isTrackingRemoteBranch: 1
   currentBranchContent:
-    m_Text: master
+    m_Text: Nasya
     m_Image: {fileID: 0}
     m_Tooltip: Active branch
   currentRemoteUrlContent:
@@ -3009,13 +1880,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2025-01-19T17:13:38.231+01:00
+    updatedTimeString: 2025-01-21T14:35:26.200+02:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2025-01-19T17:13:38.522+01:00
+    updatedTimeString: 2025-01-21T14:35:26.256+02:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2025-01-19T17:11:36.813+01:00
+    updatedTimeString: 2025-01-21T14:35:26.237+02:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -3038,7 +1909,7 @@ MonoBehaviour:
   appManagerProgressValue: 1
   appManagerProgressMessage: 
   primaryConnectionUsername: 
---- !u!114 &13
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3046,22 +1917,22 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12373, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MinSize: {x: 200, y: 200}
+  m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Game
-    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
+    m_Text: Audio Mixer
+    m_Image: {fileID: -3283902137440876849, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 237
-    y: 19
-    width: 1329
-    height: 652
+    x: 0
+    y: 500
+    width: 1149.4
+    height: 275.4
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -3072,73 +1943,348 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
     m_OverlaysVisible: 1
-  m_SerializedViewNames:
-  - UnityEditor.DeviceSimulation.SimulatorWindow
-  m_SerializedViewValues:
-  - C:\0\Unity\My project\Library\PlayModeViewStates\c8506f99b9f5a08439a2b6c1c43d911e
-  m_PlayModeViewName: GameView
-  m_ShowGizmos: 0
-  m_TargetDisplay: 0
-  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1329, y: 631}
-  m_TextureFilterMode: 0
-  m_TextureHideFlags: 61
-  m_RenderIMGUI: 1
-  m_EnterPlayModeBehavior: 1
-  m_UseMipMap: 0
-  m_VSyncEnabled: 0
-  m_Gizmos: 0
-  m_Stats: 0
-  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
-  m_ZoomArea:
-    m_HRangeLocked: 0
-    m_VRangeLocked: 0
-    hZoomLockedByDefault: 0
-    vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -664.5
-    m_HBaseRangeMax: 664.5
-    m_VBaseRangeMin: -315.5
-    m_VBaseRangeMax: 315.5
-    m_HAllowExceedBaseRangeMin: 1
-    m_HAllowExceedBaseRangeMax: 1
-    m_VAllowExceedBaseRangeMin: 1
-    m_VAllowExceedBaseRangeMax: 1
-    m_ScaleWithWindow: 0
-    m_HSlider: 0
-    m_VSlider: 0
-    m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
-    m_EnableSliderZoomHorizontal: 0
-    m_EnableSliderZoomVertical: 0
-    m_UniformScale: 1
-    m_UpDirection: 1
-    m_DrawArea:
-      serializedVersion: 2
-      x: 0
-      y: 21
-      width: 1329
-      height: 631
-    m_Scale: {x: 1.2166564, y: 1.2166566}
-    m_Translation: {x: 660.07104, y: 380.9682}
-    m_MarginLeft: 0
-    m_MarginRight: 0
-    m_MarginTop: 0
-    m_MarginBottom: 0
-    m_LastShownAreaInsideMargins:
-      serializedVersion: 2
-      x: -542.5287
-      y: -313.12714
-      width: 1092.3379
-      height: 518.63446
-    m_MinimalGUI: 1
-  m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1329, y: 652}
-  m_ClearInEditMode: 1
-  m_NoCameraWarning: 1
-  m_LowResolutionForAspectRatios: 01000000000000000000
-  m_XRRenderMode: 0
-  m_RenderTexture: {fileID: 0}
---- !u!114 &14
+  m_MixersTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 
+    m_LastClickedID: -35714
+    m_ExpandedIDs: 12eb343c
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 0
+      m_ClientGUIView: {fileID: 6}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_LayoutStripsOnTop:
+    m_VerticalSplitter:
+      ID: 0
+      splitterInitialOffset: 0
+      currentActiveSplitter: -1
+      realSizes:
+      - 65
+      - 35
+      relativeSizes:
+      - 0.65
+      - 0.35000002
+      minSizes:
+      - 85
+      - 105
+      maxSizes:
+      - 0
+      - 0
+      lastTotalSize: 0
+      splitSize: 6
+      xOffset: 0
+      m_Version: 1
+      oldRealSizes: 
+      oldMinSizes: 
+      oldMaxSizes: 
+      oldSplitSize: 0
+    m_HorizontalSplitter:
+      ID: 0
+      splitterInitialOffset: 0
+      currentActiveSplitter: -1
+      realSizes:
+      - 60
+      - 60
+      - 60
+      - 60
+      relativeSizes:
+      - 0.25
+      - 0.25
+      - 0.25
+      - 0.25
+      minSizes:
+      - 85
+      - 85
+      - 85
+      - 85
+      maxSizes:
+      - 0
+      - 0
+      - 0
+      - 0
+      lastTotalSize: 0
+      splitSize: 6
+      xOffset: 0
+      m_Version: 1
+      oldRealSizes: 
+      oldMinSizes: 
+      oldMaxSizes: 
+      oldSplitSize: 0
+  m_LayoutStripsOnRight:
+    m_VerticalSplitter:
+      ID: 0
+      splitterInitialOffset: 0
+      currentActiveSplitter: -1
+      realSizes:
+      - 60
+      - 60
+      - 60
+      - 60
+      relativeSizes:
+      - 0.25
+      - 0.25
+      - 0.25
+      - 0.25
+      minSizes:
+      - 100
+      - 85
+      - 85
+      - 85
+      maxSizes:
+      - 0
+      - 0
+      - 0
+      - 0
+      lastTotalSize: 0
+      splitSize: 6
+      xOffset: 0
+      m_Version: 1
+      oldRealSizes: 
+      oldMinSizes: 
+      oldMaxSizes: 
+      oldSplitSize: 0
+    m_HorizontalSplitter:
+      ID: 293
+      splitterInitialOffset: 0
+      currentActiveSplitter: -1
+      realSizes:
+      - 344.8
+      - 804.8
+      relativeSizes:
+      - 0.3
+      - 0.7
+      minSizes:
+      - 160
+      - 160
+      maxSizes:
+      - 0
+      - 0
+      lastTotalSize: 1149.6
+      splitSize: 6
+      xOffset: 0
+      m_Version: 1
+      oldRealSizes: 
+      oldMinSizes: 
+      oldMaxSizes: 
+      oldSplitSize: 0
+  m_SectionOrder: 00000000030000000100000002000000
+  m_LayoutMode: 1
+  m_SortGroupsAlphabetically: 0
+  m_ShowReferencedBuses: 1
+  m_ShowBusConnections: 0
+  m_ShowBusConnectionsOfSelection: 0
+--- !u!114 &15
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_TitleContent:
+    m_Text: Project
+    m_Image: {fileID: -5179483145760003458, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 500
+    width: 1093.4
+    height: 275.4
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  m_SearchFilter:
+    m_NameFilter: 
+    m_ClassNames: []
+    m_AssetLabels: []
+    m_AssetBundleNames: []
+    m_ReferencingInstanceIDs: 
+    m_SceneHandles: 
+    m_ShowAllHits: 0
+    m_SkipHidden: 1
+    m_SearchArea: 1
+    m_Folders:
+    - Assets
+    m_Globs: []
+    m_OriginalText: 
+    m_ImportLogFlags: 0
+    m_FilterByTypeIntersection: 0
+  m_ViewMode: 1
+  m_StartGridSize: 64
+  m_LastFolders:
+  - Assets
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: C:\Users\Nastichka\haibogmilue
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: c6640000
+    m_LastClickedID: 25798
+    m_ExpandedIDs: 00000000c664000000ca9a3bffffff7f
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_AssetTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 00000000c6640000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_ListAreaState:
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c6230000c05a0000a05b00001c6b000038790000e07d00002c6f00006e7100003a700000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 6}
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+    m_NewAssetIndexInList: -1
+    m_ScrollPosition: {x: 0, y: 0}
+    m_GridSize: 64
+  m_SkipHiddenPackages: 1
+  m_DirectoriesAreaWidth: 207
+--- !u!114 &16
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Inspector
+    m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1094.4
+    y: 73.6
+    width: 440.59998
+    height: 701.8
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  m_ObjectsLockedBeforeSerialization: []
+  m_InstanceIDsLockedBeforeSerialization: 
+  m_PreviewResizer:
+    m_CachedPref: 165.59998
+    m_ControlHash: -371814159
+    m_PrefName: Preview_InspectorPreview
+  m_LastInspectedObjectInstanceID: -1
+  m_LastVerticalScrollValue: 0
+  m_GlobalObjectId: 
+  m_InspectorMode: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_PreviewWindow: {fileID: 0}
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3154,14 +2300,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Hierarchy
-    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 961
-    y: 81
-    width: 113
-    height: 646
+    x: 0
+    y: 73.6
+    width: 370.2
+    height: 405.4
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -3175,9 +2321,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 14fbffff
+      m_SelectedIDs: 06780000
+      m_LastClickedID: 30726
+      m_ExpandedIDs: c082ffff1e83ffffdee0ffffa4ebffffc6f5ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -3193,7 +2339,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 8}
+        m_ClientGUIView: {fileID: 5}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -3201,7 +2347,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &15
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3217,14 +2363,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Scene
-    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 8634526014445323508, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1075
-    y: 81
-    width: 377
-    height: 646
+    x: 371.2
+    y: 73.6
+    width: 721.2
+    height: 405.4
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -3239,7 +2385,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: -166, y: -26}
+      snapOffset: {x: -166, y: -26.399994}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 3
       id: Tool Settings
@@ -3252,9 +2398,9 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: -141, y: 149}
+      snapOffset: {x: -141, y: -204.59998}
       snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 1
+      snapCorner: 3
       id: unity-grid-and-snap-toolbar
       index: 1
       layout: 1
@@ -3265,7 +2411,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 24.8}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-scene-view-toolbar
@@ -3291,7 +2437,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 24.8}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-transform-toolbar
@@ -3313,11 +2459,11 @@ MonoBehaviour:
       size: {x: 0, y: 0}
       sizeOverriden: 0
     - dockPosition: 0
-      containerId: overlay-container--right
-      floating: 0
+      containerId: Floating
+      floating: 1
       collapsed: 0
       displayed: 1
-      snapOffset: {x: -111, y: 26}
+      snapOffset: {x: -112, y: 22.400002}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 1
       id: Orientation
@@ -3334,7 +2480,7 @@ MonoBehaviour:
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Light Settings
-      index: 2
+      index: 1
       layout: 4
       size: {x: 0, y: 0}
       sizeOverriden: 0
@@ -3498,12 +2644,12 @@ MonoBehaviour:
       containerId: overlay-container--right
       floating: 0
       collapsed: 0
-      displayed: 0
-      snapOffset: {x: 48, y: 48}
+      displayed: 1
+      snapOffset: {x: 376, y: 218.59998}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
-      id: Scene View/TrailRenderer
-      index: 9
+      id: UnityEditor.SceneViewCameraOverlay
+      index: 11
       layout: 4
       size: {x: 0, y: 0}
       sizeOverriden: 0
@@ -3511,12 +2657,12 @@ MonoBehaviour:
       containerId: overlay-container--right
       floating: 0
       collapsed: 0
-      displayed: 1
-      snapOffset: {x: 48, y: 10}
+      displayed: 0
+      snapOffset: {x: 48, y: 48}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
-      id: UnityEditor.SceneViewCameraOverlay
-      index: 11
+      id: Scene View/TrailRenderer
+      index: 9
       layout: 4
       size: {x: 0, y: 0}
       sizeOverriden: 0
@@ -3542,7 +2688,7 @@ MonoBehaviour:
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Tilemap Focus
-      index: 1
+      index: 2
       layout: 4
       size: {x: 0, y: 0}
       sizeOverriden: 0
@@ -3559,9 +2705,22 @@ MonoBehaviour:
       layout: 4
       size: {x: 0, y: 0}
       sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: APV Overlay
+      index: 11
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
     m_OverlaysVisible: 1
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
-  m_Gizmos: 1
+  m_Gizmos: 0
   m_OverrideSceneCullingMask: 6917529027641081856
   m_SceneIsLit: 1
   m_SceneLighting: 1
@@ -3570,9 +2729,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.06402567, y: 0.6255184, z: 0.06441772}
+    m_Target: {x: 1.0398225, y: 1.3769838, z: -0.028532576}
     speed: 2
-    m_Value: {x: -0.06402567, y: 0.6255184, z: 0.06441772}
+    m_Value: {x: 1.0398225, y: 1.3769838, z: -0.028532576}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -3581,7 +2740,7 @@ MonoBehaviour:
   m_ValidateTrueMetals: 0
   m_DoValidateTrueMetals: 0
   m_SceneViewState:
-    m_AlwaysRefresh: 1
+    m_AlwaysRefresh: 0
     showFog: 1
     showSkybox: 1
     showFlares: 1
@@ -3597,7 +2756,7 @@ MonoBehaviour:
         m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 1, y: 1}
+      m_Size: {x: 0, y: 0}
     yGrid:
       m_Fade:
         m_Target: 0
@@ -3622,16 +2781,16 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 8.082965
+    m_Target: 12.853268
     speed: 2
-    m_Value: 8.082965
+    m_Value: 12.853268
   m_Ortho:
     m_Target: 1
     speed: 2
     m_Value: 1
   m_CameraSettings:
-    m_Speed: 1.0005002
-    m_SpeedNormalized: 0.5000001
+    m_Speed: 1
+    m_SpeedNormalized: 0.5
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -3646,80 +2805,10 @@ MonoBehaviour:
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
-  m_SceneVisActive: 1
+  m_SceneVisActive: 0
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &16
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Animator
-    m_Image: {fileID: -1673928668082335149, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 185
-    y: 81
-    width: 668
-    height: 648
-  m_SerializedDataModeController:
-    m_DataMode: 0
-    m_PreferredDataMode: 0
-    m_SupportedDataModes: 
-    isAutomatic: 1
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-    m_OverlaysVisible: 1
-  m_ViewTransforms:
-    m_KeySerializationHelper:
-    - {fileID: 8487055803271037961, guid: c7c2a1a7f90d8704a8648c31a04f2157, type: 2}
-    m_ValueSerializationHelper:
-    - e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-  m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: c7c2a1a7f90d8704a8648c31a04f2157, type: 2}
-  m_BreadCrumbs:
-  - m_Target: {fileID: 8487055803271037961, guid: c7c2a1a7f90d8704a8648c31a04f2157, type: 2}
-    m_ScrollPosition: {x: 0, y: 0}
-  stateMachineGraph: {fileID: 0}
-  stateMachineGraphGUI: {fileID: 0}
-  blendTreeGraph: {fileID: 0}
-  blendTreeGraphGUI: {fileID: 0}
-  m_AutoLiveLink: 1
-  m_MiniTool: 0
-  m_LockTracker:
-    m_IsLocked: 0
-  m_CurrentEditor: 1
-  m_LayerEditor:
-    m_SelectedLayerIndex: 0
---- !u!114 &17
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3728,21 +2817,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
+  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MinSize: {x: 230, y: 250}
-  m_MaxSize: {x: 10000, y: 10000}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Project
-    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000, type: 0}
+    m_Text: Game
+    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 961
-    y: 748
-    width: 492
-    height: 242
+    x: 371.2
+    y: 73.6
+    width: 721.2
+    height: 405.4
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -3753,122 +2842,71 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
     m_OverlaysVisible: 1
-  m_SearchFilter:
-    m_NameFilter: 
-    m_ClassNames: []
-    m_AssetLabels: []
-    m_AssetBundleNames: []
-    m_VersionControlStates: []
-    m_SoftLockControlStates: []
-    m_ReferencingInstanceIDs: 
-    m_SceneHandles: 
-    m_ShowAllHits: 0
-    m_SkipHidden: 0
-    m_SearchArea: 1
-    m_Folders:
-    - Assets/Scripts
-    m_Globs: []
-    m_OriginalText: 
-    m_ImportLogFlags: 0
-    m_FilterByTypeIntersection: 0
-  m_ViewMode: 1
-  m_StartGridSize: 64
-  m_LastFolders:
-  - Assets/Scripts
-  m_LastFoldersGridSize: -1
-  m_LastProjectPath: "C:\\0\\___\u0442\u0440\u0435\u0442\u0456\u0439\u041A\u0443\u0440\u0441\\SoftEngee\\Projects\\My
-    project"
-  m_LockTracker:
-    m_IsLocked: 0
-  m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: da600000
-    m_LastClickedID: 24794
-    m_ExpandedIDs: 00000000c860000000ca9a3bffffff7f
-    m_RenameOverlay:
-      m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
-      m_EditFieldRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      m_UserData: 0
-      m_IsWaitingForDelay: 0
-      m_IsRenaming: 0
-      m_OriginalEventType: 11
-      m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 10}
-    m_SearchString: 
-    m_CreateAssetUtility:
-      m_EndAction: {fileID: 0}
-      m_InstanceID: 0
-      m_Path: 
-      m_Icon: {fileID: 0}
-      m_ResourceFile: 
-  m_AssetTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c8600000
-    m_RenameOverlay:
-      m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
-      m_EditFieldRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      m_UserData: 0
-      m_IsWaitingForDelay: 0
-      m_IsRenaming: 0
-      m_OriginalEventType: 11
-      m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
-    m_SearchString: 
-    m_CreateAssetUtility:
-      m_EndAction: {fileID: 0}
-      m_InstanceID: 0
-      m_Path: 
-      m_Icon: {fileID: 0}
-      m_ResourceFile: 
-  m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c6230000705d000000000000
-    m_RenameOverlay:
-      m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
-      m_EditFieldRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      m_UserData: 0
-      m_IsWaitingForDelay: 0
-      m_IsRenaming: 0
-      m_OriginalEventType: 11
-      m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 10}
-    m_CreateAssetUtility:
-      m_EndAction: {fileID: 0}
-      m_InstanceID: 0
-      m_Path: 
-      m_Icon: {fileID: 0}
-      m_ResourceFile: 
-    m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
-    m_GridSize: 64
-  m_SkipHiddenPackages: 0
-  m_DirectoriesAreaWidth: 207
---- !u!114 &18
+  m_SerializedViewNames: []
+  m_SerializedViewValues: []
+  m_PlayModeViewName: GameView
+  m_ShowGizmos: 0
+  m_TargetDisplay: 0
+  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+  m_TargetSize: {x: 683, y: 384.4}
+  m_TextureFilterMode: 0
+  m_TextureHideFlags: 61
+  m_RenderIMGUI: 1
+  m_EnterPlayModeBehavior: 0
+  m_UseMipMap: 0
+  m_VSyncEnabled: 0
+  m_Gizmos: 0
+  m_Stats: 0
+  m_SelectedSizes: 01000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_ZoomArea:
+    m_HRangeLocked: 0
+    m_VRangeLocked: 0
+    hZoomLockedByDefault: 0
+    vZoomLockedByDefault: 0
+    m_HBaseRangeMin: -273.2
+    m_HBaseRangeMax: 273.2
+    m_VBaseRangeMin: -153.76
+    m_VBaseRangeMax: 153.76
+    m_HAllowExceedBaseRangeMin: 1
+    m_HAllowExceedBaseRangeMax: 1
+    m_VAllowExceedBaseRangeMin: 1
+    m_VAllowExceedBaseRangeMax: 1
+    m_ScaleWithWindow: 0
+    m_HSlider: 0
+    m_VSlider: 0
+    m_IgnoreScrollWheelUntilClicked: 0
+    m_EnableMouseInput: 0
+    m_EnableSliderZoomHorizontal: 0
+    m_EnableSliderZoomVertical: 0
+    m_UniformScale: 1
+    m_UpDirection: 1
+    m_DrawArea:
+      serializedVersion: 2
+      x: 0
+      y: 21
+      width: 721.2
+      height: 384.4
+    m_Scale: {x: 1.25, y: 1.25}
+    m_Translation: {x: 360.6, y: 192.2}
+    m_MarginLeft: 0
+    m_MarginRight: 0
+    m_MarginTop: 0
+    m_MarginBottom: 0
+    m_LastShownAreaInsideMargins:
+      serializedVersion: 2
+      x: -288.48
+      y: -153.76
+      width: 576.96
+      height: 307.52
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 901.5, y: 506.75}
+  m_ClearInEditMode: 1
+  m_NoCameraWarning: 1
+  m_LowResolutionForAspectRatios: 01000000000000000000
+  m_XRRenderMode: 0
+  m_RenderTexture: {fileID: 0}
+--- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3884,85 +2922,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Console
-    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 1
-    y: 750
-    width: 780
-    height: 240
-  m_SerializedDataModeController:
-    m_DataMode: 0
-    m_PreferredDataMode: 0
-    m_SupportedDataModes: 
-    isAutomatic: 1
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-    m_OverlaysVisible: 1
---- !u!114 &19
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12071, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Animation
-    m_Image: {fileID: -8166618308981325432, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 1
-    y: 750
-    width: 588
-    height: 240
-  m_SerializedDataModeController:
-    m_DataMode: 0
-    m_PreferredDataMode: 0
-    m_SupportedDataModes: 
-    isAutomatic: 1
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-    m_OverlaysVisible: 1
-  m_LockTracker:
-    m_IsLocked: 0
-  m_LastSelectedObjectID: -4240
---- !u!114 &20
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6629f1bb292b749a18b5fff7994c8b19, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 600, y: 350}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Unity Version Control
-    m_Image: {fileID: 0}
+    m_Image: {fileID: -4950941429401207979, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 746
-    width: 1566
-    height: 245
+    y: 500
+    width: 1149.4
+    height: 275.4
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -3973,51 +2940,3 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
     m_OverlaysVisible: 1
-  mForceToReOpen: 0
---- !u!114 &21
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Inspector
-    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 1454
-    y: 81
-    width: 464
-    height: 909
-  m_SerializedDataModeController:
-    m_DataMode: 0
-    m_PreferredDataMode: 0
-    m_SupportedDataModes: 
-    isAutomatic: 1
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-    m_OverlaysVisible: 1
-  m_ObjectsLockedBeforeSerialization: []
-  m_InstanceIDsLockedBeforeSerialization: 
-  m_PreviewResizer:
-    m_CachedPref: -160
-    m_ControlHash: -371814159
-    m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
-  m_GlobalObjectId: 
-  m_InspectorMode: 0
-  m_LockTracker:
-    m_IsLocked: 0
-  m_PreviewWindow: {fileID: 0}
